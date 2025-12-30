@@ -179,6 +179,10 @@ a {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.features {
+  padding-top: 45px;
+  padding-bottom: 120px;
+}
 .features-container {
   display: flex;
   align-items: center;
@@ -188,8 +192,6 @@ a {
   flex-direction: row;
   align-items: center;
   gap: 24px;
-  padding-top: 45px;
-  padding-bottom: 120px;
 }
 .features-cards {
   width: calc((100% - 72px) / 4);
