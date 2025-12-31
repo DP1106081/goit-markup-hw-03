@@ -8,6 +8,7 @@ body {
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 ul,
 ol {
@@ -64,6 +65,7 @@ a {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+
 .header-logo .accent-logo {
   color: #2e2f42;
 }
@@ -307,7 +309,10 @@ a {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+.footer-logo {
+  display: inline-block;
+  padding-bottom: 16px;
+}
 .footer-text {
   width: 264px;
-  padding-top: 16px;
 }
