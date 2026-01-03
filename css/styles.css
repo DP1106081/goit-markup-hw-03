@@ -103,19 +103,6 @@ a {
 .contacts-link:focus {
   color: #404bbf;
 }
-/* footer */
-.page-footer {
-  background-color: #2e2f42;
-}
-.footer-logo .accent-logo {
-  color: #f4f4fd;
-}
-.footer-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
-}
 
 /*section order-service */
 
@@ -324,4 +311,17 @@ a {
 .footer-text {
   width: 264px;
   margin-top: 16px;
+}
+/* footer */
+.page-footer {
+  background-color: #2e2f42;
+}
+.footer-logo .accent-logo {
+  color: #f4f4fd;
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
