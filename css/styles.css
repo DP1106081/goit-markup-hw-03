@@ -120,8 +120,8 @@ a {
 
 .order-service {
   background-color: #2e2f42;
-  padding-top: 113px;
-  padding-bottom: 263px;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero-container {
   display: flex;
@@ -185,7 +185,7 @@ a {
   overflow: hidden;
 }
 .features {
-  padding-top: 45px;
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 .features-container {
@@ -211,8 +211,6 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .team-list {
@@ -222,6 +220,8 @@ a {
   gap: 24px;
 }
 .our-team {
+  padding-top: 120px;
+  padding-bottom: 120px;
   background-color: #f4f4fd;
 }
 .our-team-title,
@@ -274,19 +274,24 @@ a {
 
 /* section portfolio */
 
+.page-portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .portfolio-container {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+
   padding-top: 72px;
+  gap: 48px 24px;
 }
 .portfolio-cards {
   display: flex;
@@ -297,17 +302,17 @@ a {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
-  margin-bottom: 48px;
 }
 
 .portfolio-list-item {
   width: calc((100% - 48px) / 3);
 }
 /* footer section */
-
-.footer-container {
+.page-footer {
   padding-top: 100px;
   padding-bottom: 100px;
+}
+.footer-container {
 }
 .footer-logo {
   display: inline-block;
