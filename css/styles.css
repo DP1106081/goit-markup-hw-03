@@ -219,13 +219,14 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .team-list-item {
   display: flex;
   flex-direction: column;
   background-color: #fff;
-  margin-top: 72px;
+  /* margin-top: 72px; */
   width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
 }
@@ -278,7 +279,6 @@ a {
   display: flex;
   flex-wrap: wrap;
 
-  padding-top: 72px;
   gap: 48px 24px;
 }
 .portfolio-cards {
